@@ -19,3 +19,13 @@ function multiply(a, b) {
 
 let result = multiply(5, 7);
 console.log(result);
+```
+## Education
+* Belarusian State University
+  + Bachelor, Mathematics and Computer Science
+  + Expected release year: 2027
+## Language
+* Russian 
+* Belarusian
+* English (B1)
+
