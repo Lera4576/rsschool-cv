@@ -5,11 +5,173 @@
   }
   
   body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cinzel", serif;
     font-size: 16px;
-    color: #333;
+    /* color: #333; */
+  }
+
+  .outer-container {
+    max-width: 1400px;
+    width: 100%;
+    background-color: #e2e2e2;
+    margin-left: 0px;
+  }
+
+  .container{
+    max-width: 1350px;
+    width: 100%;
+  }
+
+  .left-hand-side{
+    width: 50%;
+    float: left;
+    background-color: #e2e2e2;
+    margin-left: 0px;
+  }
+
+  .left-hand-side img{
+    width: 350px;
+    height: 410px;
+    margin-left: 80px;
+    margin-top: 80px;
+  }
+
+  .left-hand-side h1{
+    margin-left: 80px;
+    font-size: 90px;
+    color: black;
+    margin-top: 35px;
+    line-height: 1;
+  }
+
+  .left-hand-side h2{
+    margin-left: 80px;
+    font-size: 38px;
+    color: black;
+    margin-top: 25px;
+    font-weight: 300; 
+  }
+
+  h3 {
+    width: 560px;
+    height: 50px;
+    background-color: #34363b;
+    font-size: 30px;
+    text-align: center;
+    padding: 6px 9px;
+    border-radius: 0px 50px 50px 0px;
+    margin: 10px auto;
+    margin-left: 0px;
+    color: #e2e2e2;
+    margin-top: 120px;
+  }
+ 
+  .phone{
+    max-height: 70px;
+    display: flex;
+    align-items: center;
+  }
+
+  .phone img{
+    width: 27px;
+    height: 27px;
+    margin-bottom: 82px;
+    margin-left: 80px;
+    margin-top: 160px;
   }
   
-  h1 {
-    text-align: center;
-    margin-top: 20px;
+  .phone p{
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 78px
   }
+
+  .email{
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .email img{
+    width: 41px;
+    height: 41px;
+    margin-bottom: 82px;
+    margin-left: 73px;
+    margin-top: 150px;
+  }
+  
+  .email p{
+    font-size: 22px;
+    margin-left: 18px;
+    margin-top: 70px;
+  }
+
+  .tg{
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .tg img{
+    width: 29px;
+    height: 29px;
+    margin-left: 77px;
+
+  }
+  
+  .tg p{
+    font-size: 22px;
+    margin-top: 79px;
+    margin-left: 25px;
+  }
+  
+  .git{
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .git img{
+    width: 29px;
+    height: 29px;
+    margin-left: 77px;
+
+  }
+  
+  a {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-size: 22px;
+    margin-top: 79px;
+    margin-left: 25px;
+  }
+  
+  a:hover {
+    color: darkblue;
+  }
+
+  .location{
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .location img{
+    width: 29px;
+    height: 29px;
+    margin-left: 77px;
+
+  }
+  
+  .location p{
+    font-size: 22px;
+    margin-top: 79px;
+    margin-left: 25px;
+  }
+  
