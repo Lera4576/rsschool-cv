@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/691499-rock-paper-scissors-seamless-pattern-vetor.png");
+}
+
+h1 {
+  color: #333;
+  font-size: 45px;
+  padding: 20px;
+}
+
+.choices {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 150px;
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-color: white;
+  border: none;
+  text-align: center;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.container {
+  width: 800px;
+  height: 620px;
+  background-color: white;
+  margin: auto;
+}
+
+.choices button {
+  transition: transform 0.2s;
+}
+
+.choices button:hover {
+  transform: scale(1.2);
+}
+
+#score {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+#resultWinners {
+  font-size: 40px;
+  margin-top: 10px;
+}

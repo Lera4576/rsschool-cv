@@ -1,0 +1,60 @@
+table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #020202;
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .open {
+    background-color: #f1f1f1;
+  }
+  
+  .closed {
+    background-color: #4a5281;
+  }
+
+  body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://png.pngtree.com/background/20220727/original/pngtree-isolated-seamless-pattern-with-brown-and-blue-bomb-print-picture-image_1836590.jpg");
+  }
+
+  .container {
+    width: 1050px;
+    height: 1200px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .bomb-image {
+    width: 70px; 
+    height: 70px;
+    
+  }
+
+  h1{
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  #message {
+    font-size: 40px; 
+    margin-bottom: 30px;
+  }

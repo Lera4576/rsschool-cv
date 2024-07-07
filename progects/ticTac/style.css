@@ -1,0 +1,49 @@
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5a2613f6be42d61192e3e478/1582999868688-PEVK3HU4FN1D9V5UDM4K/Screen%20Shot%202020-02-29%20at%201.07.46%20PM.png?format=1000w");
+}
+table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: #333;
+  font-size: 45px;
+  padding: 20px;
+  text-align: center;
+  white-space: nowrap;
+}
+td {
+  width: 10vh;
+  height: 10vh;
+  border: 5px solid #000;
+  font-size: 50px;
+}
+
+.container {
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main {
+  margin-top: 10px;
+}
+
+#msg {
+    font-size: 25px;
+    padding: 20px;
+  }
+
+  
